@@ -1,0 +1,128 @@
+body {
+	background-color: #1b2a41;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: ivory;
+}
+
+.header {
+	display: flex;
+	gap: 16px;
+	padding: 10px 30px;
+
+}
+
+.logo {
+	margin-right: auto;
+}
+
+.container {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	align-items: top;
+	padding: 30px;
+}
+
+.main-text {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#asuna {
+	margin-left: auto;
+}
+
+.center {
+	background-color: #324A5F;
+	padding: 0 30px;
+	flex-direction:column;
+}
+
+.emphasis {
+	color: #F0C808;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.images {
+	justify-content: center;
+	gap: 50px;
+	padding: 50px;
+}
+
+.images > div {
+	text-align: center;
+	font-style: oblique;
+	font-size: 18px;
+	color: #1b2a41;
+	text-shadow: -1px 1px 0 #41ba45,
+				1px 1px 0 #c63d2b,
+				1px -1px 0 #42afac,
+				-1px -1px 0 #c6c23f;
+}
+
+.quotes {
+	background-color: #372248;
+	padding: 100px 20%;
+	display: flex;
+	justify-content: center;
+	color: #BBC8CA;
+	font-size: 30px;
+}
+
+.quote {
+	margin: 0px;
+	text-align: end;
+	font-size: 20px;
+	color: #F1FFFA;
+}
+
+.colour {
+	background-color: #324A5F;
+	padding: 100px 0;
+}
+
+.banner {
+	margin: 0 15%;
+	border: 35px solid #42afac;
+	border-radius: 16px;
+	background-color: #42afac;
+	align-items: center;
+	justify-content:space-around;
+}
+
+.banner>div {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.banner p {
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.footer {
+	text-align: center;
+}
+
+button {
+	background-color: #993955;
+	border: 0;
+	height: 40px;
+	width: 80px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+}
